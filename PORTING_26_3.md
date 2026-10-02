@@ -77,11 +77,12 @@ failures, shader compilation errors and mixin application errors. The existing
 editor's internal focus context is separate from its screen wrapper, so focused
 search closes on the first Escape; that common behavior remains unchanged.
 
-The exact JAR also passed actual config Escape and world rendering in the
-combined pack, including cold/post-world required mixin audits. That combined
-run retained one unrelated unsupported operator command; no cumulative-zero-
-failure claim is made. A corrected clean final combined run was still in
-progress when this evidence was recorded.
+The exact JAR also passed actual config GUI, native Escape and world rendering
+in the corrected combined pack, including cold/post-world required mixin audits
+with zero cumulative helper failures. Its final checkpoint recorded 12,779
+frames in each shared Skyblocker and NoFrills GPU fixture; all 24 farm-key
+assertions passed. The preceding combined run's unrelated unsupported operator
+command remains documented in its original evidence.
 
 These checks used native OpenGL software rendering. They do not establish
 authenticated Hypixel gameplay, Vulkan/hardware GPU, other operating systems,
